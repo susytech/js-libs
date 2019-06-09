@@ -1,8 +1,11 @@
 {
   "name": "@susy-js/abi",
   "description": "Sophon ABI encoder and decoder",
-  "version": "5.1.3",
-  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "version": "5.1.4",
+  "author": [
+    "Susytech <admin@superstring.ch>",
+    "Paritytech <admin@parity.io>"
+  ],
   "license": "MIT",
   "repository": "https://octonion.institute/susytech/js-libs/tree/master/packages/abi",
   "main": "lib/index.js",

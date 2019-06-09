@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.1.4 (2019-06-09)
+
+**Note:** Version bump only for package @susy-js/api
+
+
+
+
+
 ## [5.1.3](https://octonion.institute/susytech/js-libs/tree/master/packages/api/compare/v5.1.2...v5.1.3) (2019-04-05)
 
 **Note:** Version bump only for package @susy-js/api

@@ -1,8 +1,11 @@
 {
   "name": "@susy-js/electron",
   "description": "Control the Susy Sophon node from Electron.",
-  "version": "5.1.0",
-  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "version": "5.1.4",
+  "author": [
+    "Susytech <admin@superstring.ch>",
+    "Paritytech <admin@parity.io>"
+  ],
   "license": "MIT",
   "repository": "https://octonion.institute/susytech/js-libs/tree/master/packages/electron",
   "main": "lib/index.js",

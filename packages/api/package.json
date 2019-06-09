@@ -1,8 +1,11 @@
 {
   "name": "@susy-js/api",
   "description": "The Susy Promise-based API library for interfacing with Sophon over RPC",
-  "version": "5.1.3",
-  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "version": "5.1.4",
+  "author": [
+    "Susytech <admin@superstring.ch>",
+    "Paritytech <admin@parity.io>"
+  ],
   "license": "MIT",
   "repository": "https://octonion.institute/susytech/js-libs/tree/master/packages/api",
   "main": "lib/index.js",
@@ -39,7 +42,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "@susy-js/abi": "^5.1.3",
+    "@susy-js/abi": "^5.1.4",
     "bignumber.js": "^8.0.1",
     "blockies": "0.0.2",
     "es6-error": "4.0.2",
