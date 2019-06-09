@@ -1,0 +1,48 @@
+{
+  "name": "@susy-js/light.js-react",
+  "description": "A HOC to easily use @susy-js/light.js with React.",
+  "version": "5.1.3",
+  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "license": "MIT",
+  "repository": "https://octonion.institute/susytech/js-libs/tree/master/packages/light.js-react",
+  "main": "lib/index.js",
+  "keywords": [
+    "API",
+    "Sophon",
+    "Light",
+    "Light Client",
+    "Observable",
+    "Susy",
+    "Reactive",
+    "RxJS",
+    "React"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "recompose": "^0.30.0",
+    "symbol-observable": "^1.2.0"
+  },
+  "devDependencies": {
+    "@susy-js/light.js": "^5.1.3",
+    "@types/enzyme": "^3.1.13",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/recompose": "^0.30.2",
+    "enzyme": "^3.4.2",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "jest-enzyme": "^7.0.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "@susy-js/light.js": "^5.1.1",
+    "rxjs": "~6.2.2"
+  }
+}

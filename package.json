@@ -1,0 +1,44 @@
+{
+  "name": "js-libs",
+  "description": "A collection of JavaScript libraries for dapp development.",
+  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "maintainers": [
+    "Amaury Martiny"
+  ],
+  "license": "MIT",
+  "private": true,
+  "repository": "https://octonion.institute/susytech/js-libs",
+  "homepage": "https://octonion.institute/susytech/js-libs",
+  "bugs": {
+    "url": "https://octonion.institute/susytech/js-libs/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "engines": {
+    "node": ">=10.10.0",
+    "yarn": "^1.4.2"
+  },
+  "scripts": {
+    "build": "lerna exec yarn build --stream",
+    "lint": "tslint 'packages/**/*.ts'",
+    "postinstall": "yarn build",
+    "test": "jest",
+    "test:api": "cd packages/api && yarn test",
+    "update-docs": "scripts/update-docs.sh"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
+    "lerna": "^3.4.3",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-semistandard": "^7.0.0",
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-markdown": "^1.1.13",
+    "typescript": "^3.1.6"
+  }
+}

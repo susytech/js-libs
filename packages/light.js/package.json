@@ -1,0 +1,47 @@
+{
+  "name": "@susy-js/light.js",
+  "description": "A high-level reactive JS library optimized for light clients",
+  "version": "5.1.3",
+  "author": ["Susytech <admin@superstring.ch>", "Paritytech <admin@parity.io>"],
+  "license": "MIT",
+  "repository": "https://octonion.institute/susytech/js-libs/tree/master/packages/light.js",
+  "main": "lib/index.js",
+  "keywords": [
+    "API",
+    "Sophon",
+    "Light",
+    "Light Client",
+    "Observable",
+    "Susy",
+    "Reactive",
+    "RxJS"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "docs": "typedoc",
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "@susy-js/abi": "^5.1.3",
+    "@susy-js/api": "^5.1.3",
+    "async-retry": "^1.2.3",
+    "bignumber.js": "^8.0.1",
+    "debug": "^4.1.0",
+    "memoizee": "^0.4.12",
+    "rxjs-etc": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.0",
+    "@types/memoizee": "^0.4.2",
+    "eventemitter3": "^3.1.0",
+    "rxjs": "~6.2.2",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "rxjs": "~6.2.2"
+  }
+}
